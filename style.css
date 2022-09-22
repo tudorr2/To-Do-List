@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
 
 * {
   box-sizing: border-box;
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -107,7 +108,7 @@ main {
 }
 
 #tasks .task .content .text {
-  color: #fefcfd;
+  color: #ccc5b9;
   font-size: 1.125rem;
   width: 100%;
   display: block;
