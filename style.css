@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
-  /* font-family: ; */
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #3b3355;
-  color: #fefcfd;
+  background-color: #fffcf2;
+  color: #eb5e28;
 }
 
 header {
@@ -21,8 +24,8 @@ header {
 
 header h1 {
   font-size: 2.5rem;
-  font-weight: 300;
-  color: #fefcfd;
+  font-weight: 700;
+  color: #eb5e28;
   margin-bottom: 1rem;
 }
 
@@ -40,23 +43,23 @@ button {
 
 #new-task-input {
   flex: 1 1 0%;
-  background-color: #272640;
+  background-color: #252422;
   padding: 1rem;
   border-radius: 1rem;
   margin-right: 1rem;
-  color: #fefcfd;
+  color: #ccc5b9;
   font: size 1.25rem;
 }
 
 #new-task-input::placeholder {
-  color: #fefcfd;
+  color: #ccc5b9;
 }
 
 #new-task-submit {
   color: pink;
   font-size: 1.25rem;
   font-weight: 700;
-  background-image: linear-gradient(to right, #ec4899, #8b5cf6);
+  background-image: linear-gradient(to right, #eb5e28, #7b2cbf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   cursor: pointer;
@@ -85,21 +88,21 @@ main {
 
 .task-list h2 {
   font-size: 1.5rem;
-  font-weight: 300;
-  color: #fefcfd;
+  font-weight: 800;
+  color: #eb5e28;
   margin-bottom: 1rem;
 }
 
 #tasks .task {
   display: flex;
   justify-content: space-between;
-  background-color: #272640;
+  background-color: #252422;
   padding: 1rem;
   border-radius: 1rem;
   margin-bottom: 1rem;
 }
 
-#tasks .task .content{
+#tasks .task .content {
   flex: 1 1 0%;
 }
 
@@ -138,7 +141,7 @@ main {
 }
 
 .task .actions .edit {
-  background-image: linear-gradient(to right, #ec4899, #8b5cf6);
+  background-image: linear-gradient(to right, #eb5e28, #7b2cbf);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
